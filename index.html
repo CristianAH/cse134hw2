@@ -2,10 +2,107 @@
 <html lang="en">
 
 <head>
-<title> Cristian Antonio Hernandez's Website</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Cristian Antonio Hernandez's website portfolio" />
+    <meta name="keywords" content="portfolio" />
+    <meta name="author" content="Cristian Antonio Hernandez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Cristian Antonio Hernandez's Portfolio</title>
+
 </head>
 
 <body>
+    <header>
+        <h1> Welcome To My Portfolio Website</h1>
+        <nav> 
+            <ul>
+                <li> Home</li>
+                <li> <a href="experimental.html"> Experimental</a></li>
+                <li> <a href="resume.html"> Resume</a> </li>
+                <li> <a href="contact.html"> Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <hr/>
+        <template id="myTemplate">
+            <h2> Subheading created!</h2>
+            <p> Text for subheading </p>
+        </template>
+        <h2>About Me</h2>
+
+        <p> Self Image Goes Here</p>
+        <p> <span style="color:blue">Hey there, my name is <b>Cristian Antonio Hernandez</b> and I am currently studying at UCSD as a fourth year Math-CS
+            student and before I graduate I <i>hope</i> to get some internships during my last year here. My goal after graduation
+            <strong>is to be employed in the software industry</strong>, specifically in the field of applied mathematics. </span>
+       
+            <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget neque erat. Ut nec pretium ipsum. Pellentesque sit amet
+            dui sed magna dignissim porttitor. Aliquam facilisis metus at nisi efficitur placerat. Donec accumsan, mauris non
+            pellentesque sollicitudin, diam diam dictum tellus, rhoncus pellentesque neque sapien eu metus. Vivamus fermentum
+            sagittis sodales. Phasellus erat ex, euismod ut est a, tristique convallis metus. Nulla dignissim nisi id tincidunt
+            lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent molestie magna
+            a molestie pharetra. Vivamus sit amet sapien sit amet sem volutpat pharetra vitae eget lorem. Phasellus sit amet felis
+            nisi. Quisque nisl enim, venenatis sed imperdiet vitae, euismod eu dolor. Nam finibus odio dapibus tristique euismod.
+            Vestibulum luctus dui nisl. Morbi ultricies massa vitae nunc posuere, vel luctus quam congue.
+        </p>
+     <details> 
+        <summary>What is Math-CS degree?</summary>
+        <p> This major gives mathematically minded students a specialization in theoretical computer science. It is not equivalent
+        to an undergraduate degree in computer science nor is it meant to substitute for such. However, since computing
+        applications often require a strong foundation in mathematics, this major could help to prepare someone to work in such
+        a setting. (An internship could provide additional valuable training.) Course requirements include abstract algebra,
+        statistics or probability, combinatorics, numerical analysis, and at least three of each of lower division and upper
+        division courses in computer science. Up to 16 additional units of upper division coursework from approved course lists
+        in mathematics and/or computer science are required.
+        </p>
+     </details>
+    </main>
+    <h3> Education</h3>
+        <p> As I mentioned before, I <em>am</em> a student at UCSD, but I transfered from Palomar College. (* More needs to be added *)</p>
+    <section class="SchoolImages"></section>
+        <figure>
+            <img src="images/Geisel-UCSanDiego.jpeg" alt="Geisel Library" height="430" width="700">
+            <figcaption> Geisel Library. Photo by by Erik Jepsen/University Communications.</figcaption>
+        </figure>
+        <figcaption>
+            <img src="images/PalomarLibrary.jpeg" alt="Palomar College Library" height="430" width="700">
+            <figcaption> Palomar College's Library. Photo by Eduardo Contreras / San Diego Union-Tribune </figcaption>
+        </figcaption>
+    </section>
+    <h3>Current Courses - Winter 2023</h3>
+    <section class ="courses">
+    <ol>
+        <li> MATH 171A: Introduction to Numerical Optimization: Linear Programming</li>
+        <li> MATH 173B: Optimization Methods for Data Science II</li>
+        <li> MATH 181A: Introduction to Mathematical Statistics I</li>
+        <li> CSE 134B: Web Client Languages</li>
+    </ol>
+    <aside>
+        <h4> Course Descriptions</h4>
+        <p> MATH 171A's description: Linear optimization and applications. Linear programming, the simplex method, duality. Selected topics from integer
+        programming, network flows, transportation problems, inventory problems, and other applications.<br>
+        MATH 173B's description: Unconstrained optimization: linear least squares; randomized linear least squares; method(s) of steepest descent;
+        line-search methods; conjugate-gradient method; comparing the efficiency of methods; randomized/stochastic methods;
+        nonlinear least squares; norm minimization methods. Convex constrained optimization: optimality conditions; convex
+        programming; Lagrangian relaxation; the method of multipliers; the alternating direction method of multipliers;
+        minimizing combinations of norms.<br>
+        MATH 181A's description: Multivariate distribution, functions of random variables, distributions related to normal. Parameter estimation, method
+        of moments, maximum likelihood. Estimator accuracy and confidence intervals. Hypothesis testing, type I and type II
+        errors, power, one-sample t-test. Prior or concurrent enrollment in MATH 109 is highly recommended.<br>
+        CSE 134's description: Design and implementation of interactive World Wide Web clients using helper applications and plug-ins.
+        </p> 
+
+    </aside>
+    </section>
+    <a href="https://ucsd.edu/"> <button>UCSD Homepage</button></a>
+    <hr/>
+    <footer>
+        <div class="Contact">
+            <h2> Contact Information</h2>
+            <p> Phone Number: xxx xxx xxxx <br> Email: school@ucsd.edu</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
